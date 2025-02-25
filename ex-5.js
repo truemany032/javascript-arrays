@@ -22,3 +22,7 @@ const employees = [
 ];
 
 // Start coding here
+
+delete employees[3].name
+
+console.log(employees)
