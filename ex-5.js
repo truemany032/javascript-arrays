@@ -22,3 +22,7 @@ const employees = [
 ];
 
 // Start coding here
+// delete employees[3];
+// employees.pop;
+employees.splice(3, 1);
+console.log(employees);
