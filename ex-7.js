@@ -42,15 +42,12 @@ let orders = [
 ];
 
 // Start coding here
-let isArray = Array.isArray(orders);
-let creditCardTypeOfBlindermann = orders[2].creditCardType;
-let productQuantityOfJoannet = orders[3].productQuantity;
-let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
+let isArray = Array.isArray(orders); //ข้อ1.
+let creditCardTypeOfBlindermann = orders[2].creditCardType; //ข้อ2.
+let productQuantityOfJoannet = orders[3].productQuantity; //ข้อ4.
+let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity; //ข้อ5.
 
-orders[2].creditCardType = "visa";
-orders.splice(0, 1);
+orders[2].creditCardType = "visa"; //ข้อ3.
+orders.splice(0, 1); //ข้อ6.
 
-// console.log(orders);
-// console.log(creditCardTypeOfBlindermann);
-// console.log(productQuantityOfJoannet);
-// console.log(totalPurchaseOfDary);
+console.log(orders); //ข้อ7.
